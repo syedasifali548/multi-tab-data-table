@@ -1,11 +1,13 @@
 
 import React from 'react'
 import './App.css'
-import Tab from './compoments/Tab';
+// import Tabs from './components/Tabs'
+import DataTable from './components/DataTable';
 const App = () => {
   return (
     <div>
-    <Tab/>
+    {/* <Tabs/> */}
+    <DataTable/>
     </div>
   )
 }
