@@ -5,7 +5,7 @@ const DataTable = () => {
     const [selectedStudent,setStudent]= React.useState({})
     const [Tabs, setTabs] = React.useState([
       {
-        title: "table",
+        title: "User Table",
         index: 0,
       },
     ]);
@@ -66,7 +66,7 @@ const DataTable = () => {
           </span>
           { 
             tab.index>0 &&
-              <span onClick={()=>removeTab(tab.index)} style={{marginLeft:"20px",cursor:"pointer"}} >X</span>
+              <span onClick={()=>removeTab(tab.index)} style={{marginLeft:"20px",cursor:"pointer"}} >x</span>
           }
           </div>
         ))}

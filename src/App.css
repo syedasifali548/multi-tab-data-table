@@ -45,5 +45,5 @@ table tr td{
 }
 .single_tab:hover{
   border-bottom: 4px solid rebeccapurple;
-  transition: all ease-in-out 1s;
+  transition: all ease-in-out 0.5s;
 }
