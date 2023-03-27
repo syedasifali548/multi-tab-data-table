@@ -1,15 +1,13 @@
-
-import React from 'react'
-import './App.css'
+import React from "react";
+import "./App.css";
 // import Tabs from './components/Tabs'
-import DataTable from './components/DataTable';
+import DataTable from "./components/DataTable";
 const App = () => {
   return (
-    <div>
-    {/* <Tabs/> */}
-    <DataTable/>
-    </div>
-  )
-}
+   <>
+   <DataTable/>
+   </>
+  );
+};
 
-export default App
+export default App;

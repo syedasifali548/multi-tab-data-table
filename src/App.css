@@ -32,3 +32,18 @@ table tr td{
   height: 40px;
   border-bottom: 1px solid black;
 }
+.tabs_top{
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  border-bottom: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.single_tab{
+  height: 30px;
+  padding: 12px;
+}
+.single_tab:hover{
+  border-bottom: 4px solid rebeccapurple;
+  transition: all ease-in-out 1s;
+}
